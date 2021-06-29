@@ -7,7 +7,7 @@ namespace CursoCSharp.Fundamentos {
         public static void Executar() {
             var nome = "Raul";
             //nome = 123; // Não é possível atribuir um numero a uma string
-            Console.WriteLine(nome);
+            Console.WriteLine(nome.GetType());
 
             //var idade;
             //idade = 15;
