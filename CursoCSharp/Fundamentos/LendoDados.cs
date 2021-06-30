@@ -14,7 +14,6 @@ namespace CursoCSharp.Fundamentos {
             double salario = int.Parse(Console.ReadLine(),
                 CultureInfo.InvariantCulture); // Essa linha pede para desconsiderar notação de ponto e virgula do sistema operacional.
                 
-
             Console.WriteLine($"{nome}, {idade}, R${salario}");
         }
     }
