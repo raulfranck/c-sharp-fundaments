@@ -14,7 +14,7 @@ namespace CursoCSharp.EstruturaDeControle {
                 Console.WriteLine("Quadro de honra");
             } else if(nota >= 7.0) {
                 Console.WriteLine("Aluno aprovado!");
-            } else if(nota >= 5.0 &&) {
+            } else if(nota >= 5.0) {
                 Console.WriteLine("Recuperação");
             } else {
                 Console.WriteLine("Reprovado");
