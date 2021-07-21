@@ -5,6 +5,8 @@ using CursoCSharp.fundamentos;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
+
 
 namespace CursoCSharp {
     class Program {
@@ -48,6 +50,9 @@ namespace CursoCSharp {
                 {"Getters e Setters - Classes e Metodos", GetSet.Executar},
                 {"Readonly - Classes e Metodos", Readonly.Executar},
                 {"Struct - Classes e Metodos", Struct.Executar},
+
+                // Coleções
+                {"Struct - Coleções", Colecoes.Array.Executar},
 
             });
 
